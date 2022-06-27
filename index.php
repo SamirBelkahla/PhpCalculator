@@ -12,8 +12,8 @@
     echo '
     <h1>Calculatrice simple en PHP</h1>
     <form method="post">
-    Nombre 1:<input name="nombre1" type="text" class="form-control" /><br>
-    Nombre 2:<input name="nombre2" type="text" class="form-control" /><br><br>
+    Nombre 1: <input name="nombre1" type="text" class="form-control" /><br><br>
+    Nombre 2: <input name="nombre2" type="text" class="form-control" /><br><br>
         <fieldset>
             <legend>Sélectionner un opérateur</legend>
             <br>
@@ -36,7 +36,7 @@
 
         if ($nombre1 != NULL and $nombre2 != NULL) {
             if ($operation == "/" and $nombre2 == 0) {
-                echo 'On peut pas diviser par 0 voyons !';
+                echo 'On peut pas diviser par 0 !';
             }
 
             switch ($operation) {
